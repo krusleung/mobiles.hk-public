@@ -236,15 +236,15 @@ export default function PrivacyPolicyPage() {
           {/* Summary */}
           <section className="bg-orange-50 border-2 border-brand-orange p-6 rounded-lg">
             <h2 className="text-2xl font-bold mb-4 text-gray-800">Summary of Key Points</h2>
-            <ul className="space-y-2 text-gray-600">
-              <li>✅ We collect information you provide and usage data</li>
-              <li>✅ We use it to provide services, improve experience, and communicate with you</li>
-              <li>✅ We do not sell your personal information</li>
-              <li>✅ We use Clerk.com for secure authentication</li>
-              <li>✅ We implement strong security measures</li>
-              <li>✅ You have rights to access, correct, and delete your data</li>
-              <li>✅ We comply with Hong Kong privacy laws</li>
-              <li>✅ Contact us anytime with privacy concerns</li>
+            <ul className="list-disc ml-6 space-y-2 text-gray-600">
+              <li>We collect information you provide and usage data</li>
+              <li>We use it to provide services, improve experience, and communicate with you</li>
+              <li>We do not sell your personal information</li>
+              <li>We use Clerk.com for secure authentication</li>
+              <li>We implement strong security measures</li>
+              <li>You have rights to access, correct, and delete your data</li>
+              <li>We comply with Hong Kong privacy laws</li>
+              <li>Contact us anytime with privacy concerns</li>
             </ul>
           </section>
 
